@@ -1,28 +1,67 @@
-nav{
+body {
+    background-color: greenyellow;
+}
+
+nav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 150px;
-    background-color: #f1f1f1;
+    margin-left: -8px;
+    margin-top: -50px;
+    padding-top: 78px;
+    width: 170px;
+    background-color: greenyellow;
     height: 100%;
     position: fixed;
     overflow: auto;
 }
 
-li a{
+li a {
     display: block;
-    color: #000;
+    color: black;
     padding: 25px 16px;
     text-decoration: none;
     text-align: center;
+    border-radius: 10px 0 0 10px;
 }
 
 li a:hover {
-    background-color: #555;
+    background-color: red;
     color: white
 }
 
-.active {
-    background-color: #04AA6D;
-    color: white;
+li a:focus {
+    background-color: red;
+}
+
+li a:active {
+    background-color: red;
+}
+
+#intro h3 {
+    margin-top: -14px;
+}
+
+#intro {
+    padding-top: 135px;
+    margin-right: 150px;
+}
+
+#intro ul {
+    list-style: none;
+}
+
+#selfie img {
+    border-radius: 15px;
+    float: left;
+    margin-left: 180px;
+    margin-right: 25px;
+    margin-top: 135px;
+}
+
+.content {
+    margin-left: 162px;
+    margin-top: 50px;
+    background-color: red;
+    border-radius: 20px;
+    margin-right: 50px;
+    padding-bottom: 155px;
 }
